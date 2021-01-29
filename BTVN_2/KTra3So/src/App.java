@@ -13,7 +13,9 @@ public class App {
         num2 = scanner.nextDouble();
         System.out.println("Nhập số thứ ba: ");
         num3 = scanner.nextDouble();
-        if(num1 < num2 + num3 || num2 < num1 + num3 || num3 < num1 + num2){
+        if (num1 <= 0 || num2 <= 0 || num3 <= 0) {
+            System.out.println("Các số phải lớn hơn 0");
+        } else if (num1 < num2 + num3 && num2 < num1 + num3 && num3 < num1 + num2){
             System.out.println("3 số trên là cạnh của một tam giác");
         } else {
             System.out.println("3 số trên không phải là cạnh của một tam giác");
