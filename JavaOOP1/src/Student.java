@@ -1,8 +1,8 @@
 public class Student {
-    int id;
-    String fullName;
-    float theoryPoint;
-    float practicePoint;
+    public int id;
+    public String fullName;
+    public float theoryPoint;
+    public float practicePoint;
     // constructor mac dinh:
     public Student(){
     }
