@@ -1,0 +1,12 @@
+Mã nhân viên: 1
+Tên nhân viên: hieu
+Chức vụ: it
+Địa chỉ: hn
+Mức lương: 200000000
+==================
+Mã nhân viên: 2
+Tên nhân viên: manh
+Chức vụ: cntt
+Địa chỉ: hn
+Mức lương: 300000
+==================
