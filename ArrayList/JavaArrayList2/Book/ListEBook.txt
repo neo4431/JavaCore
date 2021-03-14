@@ -1,18 +1,9 @@
 Mã sách: 1
-Tên sách: c
-Nhà xuất bản: sdsc
-Năm xuất bản: 2021
+Tên sách: TaiLieuDienTu
+Nhà xuất bản: asdcs
+Năm xuất bản: 2012
 Dung lượng: 200.0
-Lượt tải: 2000
-Gía thành: 30000
-Tổng tiền: 60000000
-=========================
-Mã sách: 2
-Tên sách: bds
-Nhà xuất bản: abscdsdcs
-Năm xuất bản: 2011
-Dung lượng: 300.0
 Lượt tải: 300
-Gía thành: 50000
-Tổng tiền: 15000000
+Gía thành: 30000
+Tổng tiền: 9000000
 =========================

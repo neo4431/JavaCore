@@ -1,9 +1,18 @@
 Mã sách: 1
-Tên sách: doan
-Nhà xuất bản: kimdong
-Năm xuất bản: 2012
-Số trang đồ án: 2000
+Tên sách: a
+Nhà xuất bản: a
+Năm xuất bản: 2021
+Số trang đồ án: 200
 Tình trạng đồ án: tot
-Năm bảo vệ: 2001
+Năm bảo vệ: 2021
+Vị trí: Vị trí đồ án
+=========================
+Mã sách: 2
+Tên sách: b
+Nhà xuất bản: b
+Năm xuất bản: 2012
+Số trang đồ án: 200
+Tình trạng đồ án: tot
+Năm bảo vệ: 2012
 Vị trí: Vị trí đồ án
 =========================

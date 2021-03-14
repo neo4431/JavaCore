@@ -63,9 +63,9 @@ public class App {
             System.out.println("=========================");
         }
         // Tạo file txt và lưu thông tin
-        File myDir = new File("E:/Lập Trình/git3/JavaCore/ArrayList/JavaArrayList/StaffInfo");
+        File myDir = new File("E:/Lập Trình/JavaCore/BTVN/JavaArrayList/StaffInfo");
         myDir.mkdir();
-        File myFile = new File("E:\\Lập Trình\\git3\\JavaCore\\ArrayList\\JavaArrayList\\StaffInfo\\NhanVien.txt");
+        File myFile = new File("E:\\Lập Trình\\JavaCore\\BTVN\\JavaArrayList\\StaffInfo\\NhanVien.txt");
         myFile.createNewFile();
         FileWriter fileWriter = new FileWriter(myFile);
         for (Staff ele : listStaff) {

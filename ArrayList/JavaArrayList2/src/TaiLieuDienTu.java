@@ -4,8 +4,8 @@ public class TaiLieuDienTu extends Sach implements IDownload{
     private Long downloads;
     private Long price;
     
-    public TaiLieuDienTu(int id, String name, String publisher, int publishYear, int amount) {
-        super(id, name, publisher, publishYear, amount);
+    public TaiLieuDienTu(int id, String name, String publisher, int publishYear) {
+        super(id, name, publisher, publishYear);
     }
     
     public TaiLieuDienTu() {

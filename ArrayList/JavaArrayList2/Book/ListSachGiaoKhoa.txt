@@ -1,22 +1,11 @@
 Mã sách: 1
 Tên sách: a
-Nhà xuất bản: kim dong
+Nhà xuất bản: a
 Năm xuất bản: 2021
-Số trang sách: 2000
+Số trang sách: 200
 Tình trang sách: tot
-Tổng số lượng: 200
-Số lượng mượn: 23
+Tổng số lượng: 300
+Số lượng mượn: 30
 Vị trí: Vị trí sách giáo khoa
-Tồn kho: 177
-=========================
-Mã sách: 2
-Tên sách: b
-Nhà xuất bản: tien phong
-Năm xuất bản: 2012
-Số trang sách: 1000
-Tình trang sách: cu
-Tổng số lượng: 1000
-Số lượng mượn: 291
-Vị trí: Vị trí sách giáo khoa
-Tồn kho: 709
+Tồn kho: 270
 =========================

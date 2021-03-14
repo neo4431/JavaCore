@@ -5,14 +5,12 @@ public class Sach {
     private String name;
     private String publisher;
     private int publishYear;
-    private int amount;
 
-    public Sach(int id, String name, String publisher, int publishYear, int amount) {
+    public Sach(int id, String name, String publisher, int publishYear) {
         this.id = id;
         this.name = name;
         this.publisher = publisher;
         this.publishYear = publishYear;
-        this.amount = amount;
     }
 
     public Sach() {
@@ -28,13 +26,11 @@ public class Sach {
         publisher = sc.nextLine();
         System.out.printf("Nhập năm xuất bản: ");
         publishYear = Integer.valueOf(sc.nextLine());
-        System.out.printf("Nhập số lượng: ");
-        amount = Integer.valueOf(sc.nextLine());
     }
 
     public String toString(){
         return "Mã sách: "+id+"\nTên sách: "+name
-        +"\nNhà xuất bản: "+publisher+"\nNăm xuất bản: "+publishYear+"\nSố lượng: "+amount;
+        +"\nNhà xuất bản: "+publisher+"\nNăm xuất bản: "+publishYear;
     }
 
     public int getId() {
@@ -67,13 +63,5 @@ public class Sach {
 
     public void setPublishYear(int publishYear) {
         this.publishYear = publishYear;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
     }
 }

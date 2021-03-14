@@ -1,12 +1,12 @@
 Mã nhân viên: 1
-Tên nhân viên: hieu
-Chức vụ: it
-Địa chỉ: hn
-Mức lương: 200000000
+Tên nhân viên: 1
+Chức vụ: 1
+Địa chỉ: 1
+Mức lương: 1
 ==================
 Mã nhân viên: 2
-Tên nhân viên: manh
-Chức vụ: cntt
-Địa chỉ: hn
-Mức lương: 300000
+Tên nhân viên: 2
+Chức vụ: 2
+Địa chỉ: 2
+Mức lương: 2
 ==================

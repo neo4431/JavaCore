@@ -8,7 +8,7 @@ public class SachGiaoKhoa extends Sach implements IKho, IMuon{
     
     public SachGiaoKhoa(int id, String name, String publisher, int publishYear, int amount, int amountPage,
             String status, int amountBorrow, int total) {
-        super(id, name, publisher, publishYear, amount);
+        super(id, name, publisher, publishYear);
         this.amountPage = amountPage;
         this.status = status;
         this.amountBorrow = amountBorrow;

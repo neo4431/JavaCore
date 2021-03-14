@@ -4,9 +4,9 @@ public class DoAn extends Sach implements IKho{
     private String status;
     private int yearOfProtection;
     
-    public DoAn(int id, String name, String publisher, int publishYear, int amount, int amountPage, String status,
+    public DoAn(int id, String name, String publisher, int publishYear, int amountPage, String status,
             int yearOfProtection) {
-        super(id, name, publisher, publishYear, amount);
+        super(id, name, publisher, publishYear);
         this.amountPage = amountPage;
         this.status = status;
         this.yearOfProtection = yearOfProtection;
