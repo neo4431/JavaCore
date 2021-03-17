@@ -82,35 +82,5 @@ public class App {
                     "Số lượng cầu thủ ra sân không đúng hoặc số lượng cầu thủ hoạt động tại vị trí cần thiết không đủ!!!");
         }
         sc.close();
-        // Scanner sc = new Scanner(System.in);
-        // System.out.printf("Số lượng cầu thủ muốn nhập: ");
-        // int n = sc.nextInt();
-        // for (int i = 0; i < n; i++) {
-        // Player player = new Player();
-        // System.out.printf("Nhap so: ");
-        // int num = sc.nextInt();
-        // sc.nextLine();
-        // System.out.printf("Nhap ten: ");
-        // String fullName = sc.nextLine();
-        // System.out.printf("Nhap vi tri: ");
-        // try {
-        // String position = sc.nextLine();
-        // if (position.equals("GK")) {
-        // player.setPosition(Player.Position.GK);
-        // } else if (position.equals("DF")) {
-        // player.setPosition(Player.Position.DF);
-        // } else if (position.equals("MF")) {
-        // player.setPosition(Player.Position.MF);
-        // } else if (position.equals("FW")) {
-        // player.setPosition(Player.Position.FW);
-        // } else {
-        // throw new Exception();
-        // }
-        // player.setFullName(fullName);
-        // player.setNum(num);
-        // listPlayers.add(player);
-        // } catch (Exception e) {
-        // System.out.println("Không có vị trí này");
-        // }
     }
 }
