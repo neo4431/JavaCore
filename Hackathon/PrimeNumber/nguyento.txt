@@ -1,0 +1,7 @@
+2 là số nguyên tố
+3 là số nguyên tố
+4 không phải là số nguyên tố
+5 là số nguyên tố
+asd không phải là số
+asd không phải là số
+csd không phải là số
