@@ -1,3 +1,4 @@
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
@@ -25,18 +26,24 @@ public class App {
             } catch (Exception e) {
                 String str = String.valueOf(sc.nextLine());
                 if (str.equals("X") || str.equals("Q")) {
-                    stop = false;
+                    isNonStop = false;
                 } else {
                     System.out.println(str + " không phải là số");
                     listConsole.add(str + " không phải là số");
                 }
             }
         }
+        
         File file = new File("E:\\Lập Trình\\JavaCore\\Hackathon\\PrimeNumber\\nguyento.txt");
-        FileWriter fileWrite = new FileWriter(file);
-        for (String str : listConsole) {
-            fileWrite.write(str+"\n");
+        if(!file.exists()){
+            file.createNewFile();
         }
+        FileWriter fileWrite = new FileWriter(file.getAbsoluteFile(),true);
+        BufferedWriter bufferWrite = new BufferedWriter(fileWrite);
+        for (String str : listConsole) {
+            bufferWrite.write(str+"\n");
+        }
+        bufferWrite.close();
         fileWrite.close();
         sc.close();
     }
