@@ -35,6 +35,8 @@ public class App {
         });
         System.out.println("Thông tin giáo viên sắp xếp theo lương: ");
         printArray(listTeacher);
+        // In thông tin giáo viên có lương cao nhất
+        System.out.println("Giáo viên có lương cao nhất: " + listTeacher.get(listTeacher.size()-1));
         // Sắp xếp học viên theo tên
         Collections.sort(listStudent, new Comparator<Student>(){
             public int compare(Student o1, Student o2) {
@@ -54,6 +56,8 @@ public class App {
         });
         System.out.println("Thông tin học viên sắp xếp theo gpa: ");
         printArray(listStudent);
+        // In thông tin học sinh có điểm cao nhất
+        System.out.println("Học viên có điểm cao nhất: "+ listStudent.get(listStudent.size()-1));
     }
 
     public static void printArray(List<? extends Person> lists){
